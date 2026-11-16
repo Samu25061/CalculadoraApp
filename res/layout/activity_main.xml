@@ -1,1 +1,72 @@
 
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CALCULADORA"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp"/>
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Primer número"
+        android:inputType="numberDecimal|numberSigned"/>
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Segundo número"
+        android:inputType="numberDecimal|numberSigned"/>
+
+    <Button
+        android:id="@+id/btnSumar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUMAR"/>
+
+    <Button
+        android:id="@+id/btnRestar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RESTAR"/>
+
+    <Button
+        android:id="@+id/btnMultiplicar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MULTIPLICAR"/>
+
+    <Button
+        android:id="@+id/btnDividir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DIVIDIR"/>
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:padding="20dp"/>
+
+    <Button
+        android:id="@+id/btnLimpiar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LIMPIAR"/>
+
+</LinearLayout>
+
